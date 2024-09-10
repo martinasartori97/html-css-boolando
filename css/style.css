@@ -14,14 +14,10 @@
 img{
     width: 200px;
 }
-
-    
-
-
-
-    
-    
 }
 .menu {
+list-style: none;
+display: flex;
+align-items: flex-start;
     
 }
