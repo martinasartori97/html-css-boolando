@@ -10,10 +10,20 @@
  text-align: center;
 
 }
+nav ul{
+
+    display: flex;
+    list-style: none;
+    justify-content: flex-end;
+    
+    
+}
 .logo {
     display: flex;
+    text-align: center;
+
     
-img{
+img {
     width: 200px;
     text-align: center;
 }
@@ -23,9 +33,4 @@ img{
     display: flex;
     align-items: flex-start;
     text-decoration: none;
-}
-nav ul{
-
-    display: flex;
-    
 }
