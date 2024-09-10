@@ -3,9 +3,11 @@
     padding: 0;
     box-sizing: border-box;
 }
-#app_header{
+#app_header, .logo, .menu{
  background-color: orange;
  padding: 1rem;
+ display: flex;
+ text-align: center;
 
 }
 .logo {
@@ -16,10 +18,14 @@ img{
     text-align: center;
 }
 }
-.menu {
-list-style: none;
-display: flex;
-align-items: flex-start;
-text-decoration: none;
+.menu{
+    list-style: none;
+    display: flex;
+    align-items: flex-start;
+    text-decoration: none;
+}
+nav ul{
+
+    display: flex;
     
 }
