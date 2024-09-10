@@ -13,11 +13,13 @@
     
 img{
     width: 200px;
+    text-align: center;
 }
 }
 .menu {
 list-style: none;
 display: flex;
 align-items: flex-start;
+text-decoration: none;
     
 }
