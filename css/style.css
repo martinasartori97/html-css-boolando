@@ -1,40 +1,47 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-#app_header, .logo, .menu{
- background-color: orange;
- padding: 1rem;
- display: flex;
- text-align: center;
+
+#app_header,
+.logo,
+.menu {
+    background-color: orange;
+    padding: 1rem;
+    display: flex;
+    text-align: center;
 
 }
-nav ul{
+
+nav ul {
 
     display: flex;
     list-style: none;
     justify-content: flex-end;
-    
-    
+
+
 }
+
 .logo {
     display: flex;
     text-align: center;
 
-    
-img {
-    width: 200px;
-    text-align: center;
+
+    img {
+        width: 200px;
+        text-align: center;
+    }
 }
-}
-.menu{
+
+.menu {
     list-style: none;
     display: flex;
     align-items: flex-start;
     text-decoration: none;
 }
-.icons{
+
+.icons {
     display: flex;
     justify-content: flex-end;
     gap: 10px;
