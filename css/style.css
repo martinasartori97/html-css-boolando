@@ -34,3 +34,8 @@ img {
     align-items: flex-start;
     text-decoration: none;
 }
+.icons{
+    display: flex;
+    justify-content: flex-end;
+    gap: 10px;
+}
